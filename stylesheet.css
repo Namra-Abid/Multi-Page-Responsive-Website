@@ -1,0 +1,78 @@
+body, html {
+  height: 100%;
+}
+$color : black;
+a:active
+{
+  color: $color;
+};
+li{
+  color:#e6a315;
+}
+.grid {        background-color: white;
+               opacity: 0.8;
+               display: grid;
+               padding: 20px;
+               grid-column-gap: 20px;
+               grid-row-gap: 10px;
+               grid-template-columns: 40% 60%;
+           }
+ .grid-item {
+                      background-color: #8f3b59;
+                            opacity: 1;
+                           font-size: 20px;
+                           padding: 20px;
+                           text-align: center;
+                       }
+.container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+#cd{
+  background-color: #b88461;
+}
+a:hover {
+  color: hotpink;
+}
+.list-group{
+  padding-right: 30px;
+}
+.bg {
+  /* The image used */
+  background-image: url("book.png");
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caption{
+  position:absolute;
+ left: 0;
+ top: 40%;
+ width: 100%;
+ text-align: center;
+ color: black;
+}
+.caption span.border{
+  background-color: #e6e1cf;
+  color: black;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.list-group > .list-group {
+  display: none;
+  margin-bottom: 0;
+}
+.list-group-item:focus-within + .list-group {
+  display: block;}
+  @media print {
+               .screen-onlyyy {
+                   display: none;
+               }
+           }
